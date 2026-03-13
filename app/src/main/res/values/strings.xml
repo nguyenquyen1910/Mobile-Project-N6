@@ -1,3 +1,101 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Quản Lý Phòng Trọ</string>
+
+    <!-- Bottom Nav -->
+    <string name="nav_statistics">Thống Kê</string>
+    <string name="nav_rooms">Danh Sách Phòng</string>
+    <string name="nav_tenants">Người Thuê</string>
+
+    <!-- Statistics -->
+    <string name="stat_total_rooms">Tổng Phòng</string>
+    <string name="stat_vacant">Còn Trống</string>
+    <string name="stat_occupied">Đã Thuê</string>
+    <string name="stat_occupancy_rate">Tỉ Lệ Lấp Đầy</string>
+    <string name="stat_monthly_revenue">Doanh Thu Tháng Này</string>
+    <string name="stat_expected_revenue">Doanh Thu Dự Kiến</string>
+    <string name="stat_overview">Tổng Quan</string>
+    <string name="stat_revenue">Doanh Thu</string>
+
+    <!-- Room List -->
+    <string name="filter_all">Tất Cả</string>
+    <string name="filter_vacant">Còn Trống</string>
+    <string name="filter_occupied">Đã Thuê</string>
+    <string name="search_hint">Tìm theo tên, mã, người thuê, SĐT…</string>
+    <string name="add_room">Thêm Phòng</string>
+    <string name="no_rooms">Chưa có phòng nào</string>
+    <string name="no_rooms_filter">Không tìm thấy phòng phù hợp</string>
+
+    <!-- Room Detail -->
+    <string name="room_detail">Chi Tiết Phòng</string>
+    <string name="room_info">Thông Tin Phòng</string>
+    <string name="tenant_info">Thông Tin Người Thuê</string>
+    <string name="no_tenant">Phòng đang trống</string>
+    <string name="edit_room">Sửa Phòng</string>
+    <string name="delete_room">Xóa Phòng</string>
+    <string name="delete_confirm_title">Xác Nhận Xóa</string>
+    <string name="delete_confirm_message">Bạn có chắc muốn xóa phòng này không?</string>
+    <string name="delete_confirm_yes">Xóa</string>
+    <string name="delete_confirm_no">Hủy</string>
+
+    <!-- Room fields -->
+    <string name="field_room_code">Mã Phòng</string>
+    <string name="field_room_name">Tên Phòng</string>
+    <string name="field_price">Giá Thuê (VNĐ/tháng)</string>
+    <string name="field_area">Diện Tích (m²)</string>
+    <string name="field_description">Mô Tả</string>
+    <string name="field_electricity_price">Giá Điện (VNĐ/kWh)</string>
+    <string name="field_water_price">Giá Nước (VNĐ/m³)</string>
+    <string name="field_status">Tình Trạng Phòng</string>
+    <string name="field_tenant_name">Tên Người Thuê</string>
+    <string name="field_tenant_phone">Số Điện Thoại</string>
+    <string name="field_start_date">Ngày Bắt Đầu Thuê</string>
+    <string name="field_photo">Ảnh Phòng</string>
+
+    <!-- Status -->
+    <string name="status_vacant">Còn Trống</string>
+    <string name="status_occupied">Đã Thuê</string>
+
+    <!-- Add/Edit -->
+    <string name="add_room_title">Thêm Phòng Mới</string>
+    <string name="edit_room_title">Sửa Thông Tin Phòng</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="pick_photo">Chọn Ảnh</string>
+    <string name="change_photo">Đổi Ảnh</string>
+    <string name="room_code_hint">Ví dụ: P101</string>
+    <string name="room_name_hint">Ví dụ: Phòng 101</string>
+
+    <!-- Validation -->
+    <string name="error_required">Vui lòng nhập đầy đủ thông tin bắt buộc</string>
+    <string name="error_room_code_exists">Mã phòng đã tồn tại</string>
+    <string name="error_invalid_number">Số không hợp lệ</string>
+
+    <!-- Units -->
+    <string name="unit_vnd">VNĐ</string>
+    <string name="unit_m2">m²</string>
+    <string name="unit_month">/tháng</string>
+    <string name="unit_kwh">/kWh</string>
+    <string name="unit_m3">/m³</string>
+    <string name="currency_format">%,.0f VNĐ</string>
+
+    <!-- Tenants -->
+    <string name="tenant_list_title">Danh Sách Người Thuê</string>
+    <string name="add_tenant">Thêm Người Thuê</string>
+    <string name="edit_tenant">Sửa Thông Tin</string>
+    <string name="delete_tenant">Xóa</string>
+    <string name="add_tenant_title">Thêm Người Thuê Mới</string>
+    <string name="edit_tenant_title">Sửa Thông Tin Người Thuê</string>
+    <string name="no_tenants">Chưa có người thuê nào</string>
+    <string name="no_tenants_filter">Không tìm thấy người thuê phù hợp</string>
+    <string name="field_id_card">CCCD/CMND</string>
+    <string name="field_notes">Ghi Chú</string>
+    <string name="tenant_delete_confirm_title">Xác Nhận Xóa</string>
+    <string name="tenant_delete_confirm_msg">Bạn có chắc muốn xóa người thuê này?</string>
+    <string name="tenant_renting_cannot_delete">Không thể xóa: người này đang thuê phòng</string>
+    <string name="pick_tenant">Chọn Người Thuê</string>
+    <string name="pick_tenant_label">Người thuê đã chọn:</string>
+    <string name="no_tenant_selected">Chưa chọn người thuê</string>
+    <string name="tenant_search_hint">Tìm theo tên, số điện thoại, CCCD…</string>
+    <string name="renting_badge">Đang thuê</string>
+    <string name="not_renting_badge">Chưa thuê</string>
 </resources>

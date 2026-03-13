@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Primary dark blue (Booking.com style) -->
+    <color name="colorPrimary">#003580</color>
+    <color name="colorPrimaryDark">#00224F</color>
+    <color name="colorPrimaryVariant">#00224F</color>
+    <color name="colorAccent">#0071C2</color>
+    <color name="colorSecondary">#0071C2</color>
+    <color name="colorSecondaryVariant">#005A9E</color>
+
+    <!-- Backgrounds -->
+    <color name="colorBackground">#F0F2F5</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorOnBackground">#1C2B4A</color>
+    <color name="colorOnSurface">#1C2B4A</color>
+
+    <!-- Status colors -->
+    <color name="colorVacant">#1B8E4A</color>
+    <color name="colorVacantBg">#E8F5E9</color>
+    <color name="colorOccupied">#C62828</color>
+    <color name="colorOccupiedBg">#FFEBEE</color>
+
+    <!-- Text -->
+    <color name="colorTextPrimary">#1C2B4A</color>
+    <color name="colorTextSecondary">#6B7A8D</color>
+    <color name="colorTextHint">#9BA8B8</color>
+
+    <!-- Misc -->
+    <color name="colorDivider">#E0E4EB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
 </resources>
